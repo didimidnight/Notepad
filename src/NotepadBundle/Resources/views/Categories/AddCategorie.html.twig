@@ -1,0 +1,15 @@
+{# src/ECAM/BlogBundle/Resources/views/Categories/AddCategorie.html.twig #}
+
+{% extends 'NotepadBundle::layout.html.twig' %}
+
+{% block title %} <title>Ajout d'une catégorie</title> {% endblock %}
+
+  {% block note_content %}
+  <div id="header" class="jumbotron" align="center">
+    <h2>Ajout d'une catégorie</h2>
+  </div>
+
+  <div class="well">
+    {{ form(form) }}
+  </div> 
+  {% endblock %}
